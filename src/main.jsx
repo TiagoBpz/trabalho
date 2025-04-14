@@ -14,6 +14,7 @@ import { Analytics } from "@vercel/analytics/react"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import Calcs from './calcs.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact/>,
+  },
+  {
+    path: "/calcs",
+    element: <Calcs/>,
   },
 ]);
 

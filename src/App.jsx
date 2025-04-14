@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-     <Menu option01='Sessão 01' option03='Mapa e contato'/>
+     <Menu option01='Sessão 01' option02='Sessão 02' option03='Mapa e contato' option04='Cálculo'/>
      <main>
       <section id='s1' className={style.s1}>
         {/* <img src={img01} alt="o amor esta no ar" width={200} height={"auto"}/> */}
@@ -46,6 +46,7 @@ function App() {
           )
         })}
       </section>
+      
      {/* <section id='s3'>
         <h2>CONTATO</h2>
         <br />
