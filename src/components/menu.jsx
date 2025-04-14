@@ -7,7 +7,7 @@ import discordImg from '../assets/images/discord.png'
 export const Menu = (props) => {
     return(
         <div>
-            <nav className={`navbar navbar-expand-lg navbar-dark bg-dark navBar ${style.navBar}`}>
+            <nav className={`navbar navbar-expand-lg fixed-top navbar-dark bg-dark navBar ${style.navBar}`}>
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@ export const Menu = (props) => {
                 </div>
             </nav>
 
-            <footer className={style.footer}>
+            <footer className={`fixed-bottom ${style.footer}`}>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/">
                     <img width="30px" src={instagramImg} alt="Instagram" className="mx-2" />
                 </a>

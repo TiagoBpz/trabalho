@@ -46,7 +46,7 @@ function App() {
           )
         })}
       </section>
-      <section id='s2'>
+     {/* <section id='s3'>
         <h2>CONTATO</h2>
         <br />
           <input placeholder='Insira seu nome' type="text" id='name' name='name' value={formData.name} onChange={handleChange} required/><br /><br />
@@ -54,6 +54,7 @@ function App() {
           <textarea placeholder='Insira mensagem' id='message' name='message' value={formData.message} onChange={handleChange} cols="30" rows="10" required></textarea>
           <button onClick={handleZap}>Enviar mensagem</button>
       </section>
+      */}
      </main>
     </>
   )

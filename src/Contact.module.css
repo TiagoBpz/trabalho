@@ -1,3 +1,15 @@
 .tt{
     color: red;
 }
+h1{
+    margin-left: 140px;
+}
+h2{
+    margin-left:155px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+h3{
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
